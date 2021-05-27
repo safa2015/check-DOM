@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda&family=Saira+Condensed&display=swap");
+body {
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0px -200px;
+  color: #fff;
+  font-weight: bold;
+}
+h1 {
+  font-family: Saira Condensed;
+  font-size: 90px;
+  text-align: center;
+  color: #fff;
+}
+.container {
+  margin-top: 50px;
+  position: absolute;
+  top: 180px;
+  width: 90%;
+  margin-left: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.01);
+  backdrop-filter: blur(20px);
+  font-family: Saira Condensed;
+  font-size: 24px;
+}
+
+.btn-cont {
+  display: flex;
+
+  justify-content: space-evenly;
+  width: 100px;
+  height: 40px;
+  background: transparent;
+  border: 0.2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 20px rgba(43, 42, 42, 0.5);
+  margin-top: 20px;
+  border-radius: 40px;
+  margin-right: 20px;
+  align-items: center;
+  transform: translate(70px, -50%);
+}
+.btn-cont button {
+  outline: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: transparent;
+  background: #dbdbdb;
+  color: #fff;
+  font-size: 27px;
+}
+img {
+  width: 200px;
+  height: 170px;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 187, 0);
+}
+.minus:hover {
+  background-color: #ef5350;
+  cursor: pointer;
+}
+.plus:hover {
+  background-color: #66bb6a;
+  cursor: pointer;
+}
+.del button {
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: large;
+  color: #fff;
+}
+.delete:hover {
+  color: #b71c1c;
+}
+.check {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+li {
+  margin: auto;
+  list-style: none;
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+}
+ul li:first-child {
+  width: 50px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#total {
+  background-color: gold;
+  color: red;
+  width: 100px;
+  height: 30px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+  text-align: center;
+  padding-top: 5px;
+  border-top-left-radius: 15px 15px;
+  border-bottom-left-radius: 15px 15px;
+  font-size: 20px;
+}
+.fa-shopping-basket {
+  color: gold;
+  font-size: 30px;
+  position: fixed;
+  bottom: 5px;
+  right: 110px;
+  z-index: 1;
+}
